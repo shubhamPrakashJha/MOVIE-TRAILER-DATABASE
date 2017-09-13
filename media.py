@@ -1,5 +1,8 @@
 import webbrowser
 class Movie():#class
+    """ This calass provides a way to store movie related information """
+    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+
     def __init__(self,movie_title,movie_storyline,poster_image,trailer_youtube):
         self.title = movie_title#instanceVariable
         self.storyline = movie_storyline
@@ -8,3 +11,6 @@ class Movie():#class
 
     def show_trailer(self):#instanceMethod
         webbrowser.open(self.trailer_youtube_url)
+
+    # def do(self):
+    #     print(__name__)

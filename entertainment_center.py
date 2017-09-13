@@ -43,4 +43,9 @@ the_hunger_games = media.Movie("The Hunger Games",
 # the_dark_night.show_trailer()
 
 movies = [toy_story,avatar,the_dark_night,school_of_rock,ratatouille,midnight_in_paris,the_hunger_games]
-fresh_tomatoes.open_movies_page(movies)
+# fresh_tomatoes.open_movies_page(movies)
+# print(media.Movie.VALID_RATINGS)
+# print(media.Movie.__doc__)
+# print(avatar.__module__)
+# print(__name__)
+# avatar.do()
