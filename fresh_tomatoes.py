@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Movie Trailer Database</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -19,7 +19,14 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
-             background-color: black;
+            background-color: black;
+        }
+        h2, h5, h6{
+            color: lightgrey;
+        }
+        h2, .navbar-brand{
+            text-transform: uppercase;
+            font-weight: bold;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -108,7 +115,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Classic Movies Trailer Database</a>
+            <a class="navbar-brand" href="#">Movie Trailer Database</a>
           </div>
         </div>
       </div>
@@ -126,6 +133,8 @@ movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
+    <h6>{movie_duration}</h6>
+    <h5>{movie_story}</h5>
 </div>
 '''
 
@@ -145,6 +154,8 @@ def create_movie_tiles_content(movies):
         # Append the tile for the movie with its content filled in
         content += movie_tile_content.format(
             movie_title=movie.title,
+            movie_duration = movie.duration,
+            movie_story = movie.storyline,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id
         )

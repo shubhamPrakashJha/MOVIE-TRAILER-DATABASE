@@ -2,46 +2,46 @@ import media
 import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
-                        "A story of a boy AND his toys that come to life",
+                        "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
                         "https://www.youtube.com/watch?v=KYz2wyBy3kc",
                         "1hr 21min")
 
 avatar = media.Movie("Avatar",
-                     "The film is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon of a gas giant in the Alpha Centauri star system, in order to mine the mineral unobtanium,[9][10] a room-temperature superconductor",
+                     "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
                      "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY",
                      "2h 42min")
 
 the_dark_night = media.Movie("The Dark Knight",
-                     "The Dark Knight is a 2008 superhero film directed, co-produced, and co-written by Christopher Nolan. Featuring the DC Comics character Batman, the film is the second part of Nolan's The Dark Knight Trilogy and a sequel to 2005's Batman Begins",
-                     "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
-                     "https://www.youtube.com/watch?v=EXeTwQWrcwY",
-                     "2h 32min")
+                            "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+                             "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg",
+                             "https://www.youtube.com/watch?v=EXeTwQWrcwY",
+                             "2h 32min")
 
 school_of_rock = media.Movie("School of Rock",
-                     "Down and out rock star Dewey Finn gets fired from his band, and he faces a mountain of debts and depression. He takes a job as a 4th grade substitute teacher at an uptight private school where his attitude and hijinx have a powerful effect on his students. He also meets Zack, a 10-year-old guitar prodigy, who could help Dewey win a battle of the bands competition, which would solve his financial problems and put him back in the spotlight",
-                     "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                     "https://www.youtube.com/watch?v=3PsUJFEBC74",
-                     "1h 48min")
+                             "After being kicked out of a rock band, Dewey Finn becomes a substitute teacher of a strict elementary private school, only to try and turn it into a rock band.",
+                             "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+                             "https://www.youtube.com/watch?v=3PsUJFEBC74",
+                             "1h 48min")
 
 ratatouille = media.Movie("Ratatouille",
-                     "Remy is an idealistic and ambitious young rat, gifted with highly developed senses of taste and smell",
-                     "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                     "https://www.youtube.com/watch?v=niD-jahFURU",
-                     "1h 51min")
+                          "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
+                          "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
+                          "https://www.youtube.com/watch?v=niD-jahFURU",
+                          "1h 51min")
 
 midnight_in_paris = media.Movie("Midnight in Paris",
-                     "a midnight in paris",
+                     "While on a trip to Paris with his fiance/'s family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s everyday at midnight.",
                      "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                      "https://www.youtube.com/watch?v=FAfR8omt-CY",
                      "1h 34min")
 
 the_hunger_games = media.Movie("The Hunger Games",
-                     "As punishment for a past rebellion, each of the 12 districts of Panem is forced by the Capitol to select two tributes, one boy and one girl between the ages of 12 and 18, to fight to the death in the annual Hunger Games",
-                     "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
-                     "https://www.youtube.com/watch?v=mfmrPu43DF8",
-                     "2h 22min")
+                               "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death",
+                                "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
+                                "https://www.youtube.com/watch?v=mfmrPu43DF8",
+                                "2h 22min")
 
 
 movies = [toy_story,avatar,the_dark_night,school_of_rock,ratatouille,midnight_in_paris,the_hunger_games]
@@ -53,7 +53,7 @@ fresh_tomatoes.open_movies_page(movies)
 # avatar.show_trailer()
 # print(the_dark_night.storyline)
 # the_dark_night.show_trailer()
-print(the_hunger_games.duration)
+# print(the_hunger_games.duration)
 
 
 # print(media.Movie.VALID_RATINGS)
