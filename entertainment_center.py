@@ -1,6 +1,9 @@
+#importing media package to create class movies objects
 import media
+#importing fresh_tomatoes package which generates movies trailer html file
 import fresh_tomatoes
 
+#creating movies objects
 toy_story = media.Movie("Toy Story",
                         "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -64,6 +67,8 @@ jurassic_park = media.Movie("Jurassic Park",
                             "2h 7min",
                             "1993")
 
+#creating list of class movies objects
 movies = [titanic,avatar,the_dark_night,jurassic_park,ratatouille,midnight_in_paris,the_hunger_games,toy_story,school_of_rock]
+#calling open_movies_page method defined in fresh_tomatoes package to create web page containing movies  in movie list which is passed as an argument
 fresh_tomatoes.open_movies_page(movies)
 

@@ -1,6 +1,7 @@
 #importing webbrowser library to control functionality of webbrowser
 import webbrowser
 
+#parent class for subclass like movies,TV-series,Cartoons etc
 class Video():
     '''This class provides a way to create other subclass like movies and TV-Series '''
     def __init__(self,movie_title,duration):
@@ -11,6 +12,7 @@ class Video():
         '''opens new tab in web browser with the URL passed to it as an argument'''
         webbrowser.open(self.trailer_youtube_url)
 
+#subclass of Video class
 class Movie(Video):
     """ This class provides a way to store movie related information """
     VALID_RATINGS = ["G", "PG", "PG-13", "R"]
