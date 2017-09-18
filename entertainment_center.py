@@ -43,21 +43,17 @@ the_hunger_games = media.Movie("The Hunger Games",
                                 "https://www.youtube.com/watch?v=mfmrPu43DF8",
                                 "2h 22min")
 
+titanic = media.Movie("TITANIC",
+                      "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+                      "https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+                      "https://www.youtube.com/watch?v=2e-eXJ6HgkQ",
+                      "3h 14min")
 
-movies = [toy_story,avatar,the_dark_night,school_of_rock,ratatouille,midnight_in_paris,the_hunger_games]
+jurassic_park = media.Movie("Jurassic Park",
+                            "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+                            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg",
+                            "https://www.youtube.com/watch?v=pUc-cBjh11Y",
+                            "2h 7min")
+
+movies = [toy_story,avatar,the_dark_night,school_of_rock,ratatouille,midnight_in_paris,the_hunger_games,titanic,jurassic_park]
 fresh_tomatoes.open_movies_page(movies)
-
-
-# print(toy_story.storyline)
-# print(avatar.storyline)
-# avatar.show_trailer()
-# print(the_dark_night.storyline)
-# the_dark_night.show_trailer()
-# print(the_hunger_games.duration)
-
-
-# print(media.Movie.VALID_RATINGS)
-# print(media.Movie.__doc__)
-# print(avatar.__module__)
-# print(__name__)
-# avatar.do()
