@@ -1,9 +1,9 @@
-#MOVIE TRAILER DATABASE
+# MOVIE TRAILER DATABASE
 
 Website containing _Database_  of  **_movie trailers_** along with their _duration_ and  _storyline_
 
 
-##INSTALL
+## INSTALL
 
 Requires Python 2.7
 ```
