@@ -23,4 +23,4 @@ open the `entertainment_center.py` file in **python IDLE**
 - after openinng, the website containing  _catalouges_ of **MOVIES**  _POSTER IMAGE_ along with their _name_ and _storyline_ will open.
 - press the _poster image_ of the movies whose trailer you want to see.
 - Movie trailer window will be prompted in front of the website.
-- to go back to the home page click on the frey area.
+- to go back to the home page click on the frey area or the X button.
