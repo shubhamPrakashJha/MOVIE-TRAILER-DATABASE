@@ -55,5 +55,6 @@ jurassic_park = media.Movie("Jurassic Park",
                             "https://www.youtube.com/watch?v=pUc-cBjh11Y",
                             "2h 7min")
 
-movies = [toy_story,avatar,the_dark_night,school_of_rock,ratatouille,midnight_in_paris,the_hunger_games,titanic,jurassic_park]
+movies = [titanic,avatar,the_dark_night,jurassic_park,ratatouille,midnight_in_paris,the_hunger_games,toy_story,school_of_rock]
 fresh_tomatoes.open_movies_page(movies)
+
