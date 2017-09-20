@@ -1,6 +1,6 @@
 # MOVIE TRAILER DATABASE
 
-Website containing _Database_  of  **_movie trailers_** along with their _duration_ and  _storyline_
+Website containing _Database_  of  **_movie trailers_** along with their _duration_, _release year_ and  _storyline_
 
 
 ## INSTALL
