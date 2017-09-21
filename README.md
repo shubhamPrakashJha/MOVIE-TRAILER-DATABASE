@@ -2,7 +2,7 @@
 
 Website containing _Database_  of  **_movie trailers_** along with their _duration_, _release year_ and  _storyline_
 
-![alt text](img/Screenshot.png)
+![website screenshot](img/Screenshot.png)
 ## INSTALL
 
 Requires Python 2.7
