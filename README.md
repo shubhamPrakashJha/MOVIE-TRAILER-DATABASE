@@ -2,7 +2,7 @@
 
 Website containing _Database_  of  **_movie trailers_** along with their _duration_ and  _storyline_
 
-
+![alt text](img/Screenshot.png)
 ## INSTALL
 
 Requires Python 2.7
